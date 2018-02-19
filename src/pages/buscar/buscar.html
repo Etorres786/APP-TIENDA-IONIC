@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Buscar Productos</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-searchbar (ionInput)="buscar_productos($event)"></ion-searchbar>
+    <ion-list *ngFor="let item of _pro.busqueda">
+        <ion-item (click)="seleccionado(item)">
+            <ion-avatar item-start>
+                <img [src]="item.codigo|imagen">
+            </ion-avatar>
+            {{ item.producto }}
+        </ion-item>
+    </ion-list>
+</ion-content>

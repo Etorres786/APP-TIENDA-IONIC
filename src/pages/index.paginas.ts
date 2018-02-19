@@ -1,0 +1,14 @@
+export { CarritoPage } from './carrito/carrito';
+export { CategoriasPage } from '../pages/categorias/categorias';
+export { HomePage } from './home/home';
+export { LoginPage } from './login/login';
+export { OrdenesPage } from './ordenes/ordenes';
+export { OrdenesDetallePage } from './ordenes-detalle/ordenes-detalle';
+export { PorCategoriasPage } from './por-categorias/por-categorias';
+export { ProductoPage } from './producto/producto';
+export { TabsPage } from './tabs/tabs';
+export { BuscarPage } from './buscar/buscar';
+export { ClientesPage } from './clientes/clientes';
+export { ClientesListPage } from './clientes-list/clientes-list';
+export { RegistrarClientePage } from './registrar-cliente/registrar-cliente';
+export { BuscarClientePage } from './buscar-cliente/buscar-cliente';
